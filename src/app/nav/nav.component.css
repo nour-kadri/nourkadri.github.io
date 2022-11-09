@@ -1,0 +1,145 @@
+html {
+  scroll-behavior: smooth;
+}
+.navba {
+  background-color: #000000;
+  -webkit-transition: background-color 1000ms linear;
+  -ms-transition: background-color 1000ms linear;
+  transition: background-color 1000ms linear;
+}
+.cover {
+  background: no-repeat, linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url("../../assets/header-bg.gif") no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  padding-top: 40px;
+}
+.nav-item {
+  font-size: 23px;
+  margin: 10px;
+}
+.navbar {
+  -webkit-transition: background-color 1000ms linear;
+  -ms-transition: background-color 1000ms linear;
+  transition: background-color 1000ms linear;
+}
+.cover-content {
+  min-height: 100vh;
+}
+.cover-content img {
+  max-width: 200px;
+  max-height: 200px;
+  border: 2px solid white;
+}
+.rounded-photo {
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+}
+.cover-content h1 {
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 30px;
+  
+}
+.cover-content h6 {
+  font-size: 25px;
+  color:  #6ab04c;
+}
+
+@media screen and (max-width: 760px) {
+  .cover-content h1 {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 30px;
+  }
+
+  .cover-content h6 {
+    font-size: 15px;
+  }
+}
+.arrows-div {
+  margin-top: 150px;
+}
+.arrows {
+  width: 60px;
+  height: 72px;
+}
+header .arrows path {
+  stroke: #fff;
+  fill: transparent;
+  stroke-width: 2px;
+  animation: arrow 2s infinite;
+  -webkit-animation: arrow 2s infinite;
+}
+header .arrows path.a1 {
+  animation-delay: -1s;
+  -webkit-animation-delay: -1s;
+}
+header .arrows path.a2 {
+  animation-delay: -0.5s;
+  -webkit-animation-delay: -0.5s;
+}
+header .arrows path.a3 {
+  animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+}
+
+@keyframes arrow {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes arrow {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.icons {
+  margin-top: 25px;
+}
+
+.icons a {
+  display: inline-block;
+  width: 50px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+.icons a:hover {
+ background-color: #6ab04c;
+}
+
+.nav-link{
+  color: #ffffff !important;
+}
+.nav-link:hover{
+  color:  #6ab04c !important;
+}

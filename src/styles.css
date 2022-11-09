@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* html, body { height: 100%; } */
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.owl-dots{
+  text-align: center;
+  margin-top: 40px;
+}
+
+.owl-dot{
+  width: 14px;
+  height: 14px;
+  background: #808080 !important;
+  margin: 0 6px;
+  border-radius: 14px;
+  outline: none;
+  transitistrongon: .3s linear;
+}
+
+.owl-dot.active{
+  width: 36px;
+  background: #6ab04c !important;
+}
+
+.owl-dot:hover{
+  width: 36px;
+  background: #6ab04c !important;
+}
+strong{
+  color: #6ab04c;
+  font-weight: bold;
+}

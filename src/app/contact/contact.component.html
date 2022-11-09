@@ -1,0 +1,81 @@
+<body>
+  <h2 class="heading">
+    <h2 class="section-title">
+      <span>
+        <h1>Contact <strong>Us</strong></h1></span
+      >
+    </h2>
+  </h2>
+  <div class="contain" id="contact">
+    <div class="wrapper">
+      <div class="form">
+        <h4>GET IN TOUCH</h4>
+        <h2 class="form-headline">Send us a message</h2>
+        <form id="submit-form" action="">
+          <p>
+            <input
+              id="name"
+              class="form-input"
+              type="text"
+              placeholder="Your Name*"
+            />
+            <small class="name-error"></small>
+          </p>
+          <p>
+            <input
+              id="email"
+              class="form-input"
+              type="email"
+              placeholder="Your Email*"
+            />
+            <small class="name-error"></small>
+          </p>
+          <p class="full-width">
+            <input
+              id="company-name"
+              class="form-input"
+              type="text"
+              placeholder="Company Name*"
+              required
+            />
+            <small></small>
+          </p>
+          <p class="full-width">
+            <textarea
+              minlength="20"
+              id="message"
+              cols="30"
+              rows="7"
+              placeholder="Your Message*"
+              required
+            ></textarea>
+            <small></small>
+          </p>
+          <p class="full-width">
+            <input
+              type="submit"
+              class="submit-btn"
+              value="Submit"
+              onclick="checkValidations()"
+            />
+          </p>
+        </form>
+      </div>
+
+      <div class="contacts contact-wrapper">
+        <ul>
+          <span class="hightlight-contact-info">
+            <li class="email-info">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              contact@nourkadri.com
+            </li>
+            <li>
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <span class="highlight-text">+96181686548</span>
+            </li>
+          </span>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
