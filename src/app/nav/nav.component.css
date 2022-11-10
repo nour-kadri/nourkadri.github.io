@@ -46,8 +46,17 @@ html {
   font-size: 25px;
   color: #6ab04c;
 }
+@media only screen and (max-width: 377px)   {
+  .cover-content h1 {
+    font-size: 22px;
+  }
+  .cover-content h6 {
+    font-size: 14px;
+  }
+}
 
-@media screen and (max-width: 760px) {
+@media only screen and (max-width: 760px) and (min-width: 377px)  {
+
   .cover-content h1 {
     font-size: 30px;
     font-weight: bold;
