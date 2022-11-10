@@ -35,11 +35,11 @@ div.form {
   display: block;
   width: 10%;
   padding-top: 10px;
-  border-bottom: 3px solid #ec1c24;
+  border-bottom: 3px solid #6ab04c;
 }
 
 .highlight-text {
-  color: #ec1c24;
+  color: #6ab04c;
 }
 
 .hightlight-contact-info {
@@ -81,7 +81,7 @@ h3 {
 
 .form-input:focus,
 textarea:focus {
-  outline: 1.5px solid #ec1c24;
+  outline: 1.5px solid  #6ab04c;
 }
 
 .form-input,
@@ -143,8 +143,8 @@ textarea {
 button,
 .submit-btn {
   background: transparent;
-  border: 1px solid #ec1c24;
-  color: #ec1c24;
+  border: 1px solid  #6ab04c;
+  color:  #6ab04c;
   border-radius: 15px;
   padding: 5px 20px;
   text-transform: uppercase;
@@ -153,12 +153,12 @@ button:hover,
 .submit-btn:hover,
 button:focus,
 .submit-btn:focus {
-  background: #ec1c24;
+  background:  #6ab04c;
   outline: 0;
   color: #eee;
 }
 .error {
-  color: #ec1c24;
+  color:  #6ab04c;
 }
 .section-title {
   text-align: center;
